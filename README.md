@@ -1,6 +1,6 @@
-# RokuKast
+# RokuKastFF
 
-> A Chrome extension to stream web videos to Roku devices.
+> A Firefox Port of a Chrome extension to stream web videos to Roku devices.
 
 ## Building
 
@@ -24,3 +24,5 @@ In order to use the Cast function, you must configure your Roku's IP address on 
 ## Credits
 
 This project is based on [RokuCast](https://github.com/pranav-prakash/RokuCast/) by Pranav Prakash and [chrome-extension-react-typescript-boilerplate](https://github.com/martellaj/chrome-extension-react-typescript-boilerplate) by Joe Martella.
+
+As the original github repository is unlicensed, I am assuming inheritance from the original projects.
