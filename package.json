@@ -6,10 +6,11 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
     "watch": "webpack -w --config webpack.dev.js",
-    "lint": "tslint 'src/**/*.{ts, tsx}'"
+    "lint": "tslint 'src/**/*.{ts, tsx}'",
+    "makecrx": "crx pack dist -o dist/RokuKast.crx"
   },
   "author": "Daniel Greuel",
-  "license": "MIT",
+  "license": "GPLv3",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@types/chrome": "0.0.60",
@@ -33,12 +34,10 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
+    "crx": "^5.0.1",
     "jquery": "^3.4.0",
     "lodash": "^4.17.13",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
-  },
-  "installConfig": {
-    "pnp": true
   }
 }

@@ -4,3 +4,5 @@ dist.pem
 package-lock.json
 .vscode/*
 .pnp*
+dist/*
+yarn*
