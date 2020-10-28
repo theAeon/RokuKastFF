@@ -1,7 +1,7 @@
 {
-  "name": "roku-kast",
-  "version": "0.0.2",
-  "description": "A Chrome extension to stream web videos to Roku devices.",
+  "name": "roku-kast-ff",
+  "version": "0.0.2-FF",
+  "description": "A Firefox port of Chrome extension to stream web videos to Roku devices.",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack --config webpack.dev.js",
@@ -9,8 +9,8 @@
     "lint": "tslint 'src/**/*.{ts, tsx}'",
     "makecrx": "crx pack dist -o dist/RokuKast.crx"
   },
-  "author": "Daniel Greuel",
-  "license": "GPLv3",
+  "author": "Andrew Robbins",
+  "license": "GPL-3.0",
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@types/chrome": "0.0.60",
